@@ -1,0 +1,9 @@
+{
+  "dataset": "intel-berkeley",
+  "name": "Intel Berkeley Research Lab Sensor Network",
+  "description": "54 capteurs sur 4 jours, donnees temperature/humidite/luminosite",
+  "type": "sensor-network",
+  "source": "CRAWDAD",
+  "url": "http://db.csail.mit.edu/labdata/data.txt.gz",
+  "downloaded": true
+}

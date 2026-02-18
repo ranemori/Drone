@@ -1,0 +1,35 @@
+# Configuration du réseau de drones
+
+simulation:
+  nb_drones: 20
+  zone_taille: 100
+  rayon_communication: 25
+  nb_iterations: 100
+  vitesse_max: 2.0
+  
+visualisation:
+  afficher_graphes: true
+  sauvegarder_figures: true
+  dossier_sortie: "../report"
+  intervalle_sauvegarde: 25  # Sauvegarder tous les X iterations
+  
+regles_auto_organisation:
+  reconnexion_actif: true
+  optimisation_cycles: true
+  seuil_densite_optimisation: 0.3
+  pourcentage_aretes_supprimables: 0.1
+  
+robustesse:
+  activer_test: true
+  nb_iterations_test: 100
+  type_suppression: "degre_max"  # degre_max, aleatoire, central
+  
+export:
+  format_metriques: "csv"  # csv, json, both
+  sauvegarder_positions: true
+  sauvegarder_graphe: false
+  
+logging:
+  niveau: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  fichier_log: "../report/simulation.log"
+  console: true

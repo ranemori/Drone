@@ -1,0 +1,7 @@
+# Dépendances Python pour le projet de réseau de drones
+
+networkx>=2.8
+numpy<2.0
+matplotlib<3.8
+pandas>=1.5.0
+pyyaml>=6.0
